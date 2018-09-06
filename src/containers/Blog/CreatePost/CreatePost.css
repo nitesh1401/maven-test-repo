@@ -1,0 +1,48 @@
+.CreatePost {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+}
+
+.CreatePost label {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.CreatePost input,
+.CreatePost textarea,
+.CreatePost select {
+    display: block;
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    font: inherit;
+    margin: auto;
+}
+
+.CreatePost button {
+    margin: 5px 0;
+    padding: 10px;
+    font: inherit;
+    border: 1px solid #fa923f;
+    border-radius: 10%;
+    background-color: transparent;
+    color: #fa923f;
+    cursor: pointer;
+}
+
+.CreatePost button:hover,
+.CreatePost button:active {
+    color: white;
+    background-color: #fa923f;
+}
+
+.CreatePost button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}

@@ -1,0 +1,37 @@
+.Container {
+    width:150px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.Post {
+    width: 150px;
+    height:150px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    box-sizing: border-box;
+}
+
+.Info {
+    width:150px;
+    box-sizing: border-box;
+    padding:10px 5px;
+}
+
+.Format {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:100px;
+    margin:0 0 2px;
+}
+
+.Post:hover,
+.Post:active {
+    background-color: #C0DDF5;
+}
+
+.Author {
+    margin: 16px 0;
+    color: #ccc;
+}
